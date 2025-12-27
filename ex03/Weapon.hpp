@@ -2,7 +2,9 @@
 #define WEAPON_HPP
 
 #include <string>
-//const un başta ve sonda olması ne fark ediyor ?
+
+//const un başta, parantez içinde ve sonda olması ne fark ediyor ?
+
 class Weapon
 {
     private:
@@ -10,12 +12,9 @@ class Weapon
         
     public:
         Weapon(std::string type);
-        const std::string& getType();
-        void setType(std::string type);
-
-}
-
-
-
+        const std::string& getType() const;
+        void setType(const std::string& type); 
+        
+};
 
 #endif 
