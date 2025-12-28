@@ -34,8 +34,7 @@ void Harl::complain(std::string level)
         {
             (this->*ptrToComplains[i])();
                 return;
-        }   
+        }
         i++;
     }
-    std::cout << "Level not recognized "<< std::endl;
 }

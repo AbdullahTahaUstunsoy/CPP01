@@ -17,5 +17,4 @@ class Harl
 typedef void (Harl::*harlComplains) (void);
 
 
-
 #endif
