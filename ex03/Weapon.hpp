@@ -3,8 +3,6 @@
 
 #include <string>
 
-//const un başta, parantez içinde ve sonda olması ne fark ediyor ?
-
 class Weapon
 {
     private:

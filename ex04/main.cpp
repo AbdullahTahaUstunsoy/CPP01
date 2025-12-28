@@ -46,10 +46,10 @@ int main(int argc, char *argv[])
     
     while (std::getline(inputFile, line))
     {
-        new_line.clear(); //önceki satırların birikmesini önler
+        new_line.clear();
         pos = 0;
         found = line.find(str1, pos);
-        while(found != std::string::npos) //std::string::find gibi fonksiyonlar bulamazsa std::string::npos döndürür.
+        while(found != std::string::npos)
         {
             new_line +=line.substr(pos, found-pos);
             new_line += str2;

@@ -8,7 +8,7 @@ class HumanB
 {
     private:
         std::string m_name;
-        Weapon *m_weapon; //HumanB bir Weapon’a sahip olmak zorunda değil. Sonradan bağlanabilir, bağlantı değiştirilebilir, NULL olabilir
+        Weapon *m_weapon;
     public:
         HumanB(std::string name);
         void attack();

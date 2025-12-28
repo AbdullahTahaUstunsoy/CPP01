@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 
-//referans ve pointer farkını araştır
 int main()
 {
     std::string str("HI THIS IS BRAIN");
