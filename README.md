@@ -1,5 +1,3 @@
-# C++ Module 01 - Memory Allocation, Pointers to Members, and References
-
 Bu modül; bellek tahsisi, işaretçiler ile referanslar arasındaki farklar ve üye fonksiyonlara işaretçiler gibi C++'ın kritik konseptlerini derinlemesine inceleyen bir projesidir.
 
 ---
