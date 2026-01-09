@@ -1,4 +1,4 @@
-Bu modül; bellek tahsisi, işaretçiler ile referanslar arasındaki farklar ve üye fonksiyonlara işaretçiler gibi C++'ın kritik konseptlerini derinlemesine inceleyen bir projesidir.
+Bu modül; bellek tahsisi, işaretçiler ile referanslar arasındaki farklar ve member fonksiyonlara pointerlar gibi C++'ın kritik konseptlerini derinlemesine inceleyen bir projedir.
 
 ---
 
